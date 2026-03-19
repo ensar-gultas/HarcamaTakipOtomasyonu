@@ -8,7 +8,7 @@ Bu otomasyon, bir finansal takip sisteminin temel işleyişini simüle eder. Pro
 ## ⚙️ Temel Özellikler (Features)
 
 * **💳 Harcama Kaydı Oluşturma:** Gıda, Konut, Ulaşım ve Diğer kategorilerinde; tutar, tarih ve açıklama kontrolleri yapılarak sisteme veri girişi sağlanması.
-* **📅 Dinamik Tarih Filtreleme:** LocalDate kullanılarak, içinde bulunulan yıldan bir önceki yılın başından itibaren (yaklaşık 2 yıllık bir pencerede) veri girişine izin veren kontrol mekanizması.
+* **📅 Dinamik Tarih Filtreleme:** `java.time.LocalDate` kullanılarak, içinde bulunulan yıldan bir önceki yılın başından itibaren (yaklaşık 2 yıllık bir pencerede) veri girişine izin veren kontrol mekanizması.
 * **📊 Dönemsel Özet Raporlar:** 1 Haftalık, 1-3-6 Aylık ve Yıllık periyotlarda toplam harcama tutarlarının hesaplanması.
 * **📈 Kategori Bazlı Analiz:** Harcamaların kategorilere göre gruplandırılması ve genel bütçe içindeki yüzdesel (%) dağılımının raporlanması.
 * **🔍 Özel Tarih Aralığı Sorgulama:** Kullanıcının belirlediği iki tarih arasında (başlangıç/bitiş kıyaslaması yapılarak) detaylı harcama listeleme.
@@ -24,5 +24,3 @@ Bu otomasyon, bir finansal takip sisteminin temel işleyişini simüle eder. Pro
 ## 📝 Gelecek Planları (Roadmap)
 Uygulama şu an verileri geçici bellek (RAM) üzerinde tutmaktadır. Projenin bir sonraki aşamasında:
 * Girilen verilerin bir `.txt` dosyasına kaydedilmesi ve uygulama başlatıldığında bu dosyadan verilerin geri yüklenmesi planlanmaktadır.
-
-
